@@ -1,8 +1,7 @@
-
 {{
     config(
         materialized = 'table'
     )
 }}
 
-select * from boomi.boomi_balan.orders
+select * from BOOMI.BOOMI_BALAN.orders
