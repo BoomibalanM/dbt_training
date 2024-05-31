@@ -5,4 +5,4 @@
     )
 }}
 
-select * from BOOMI.BOOMI_BALAN.orders
+select * from boomi.boomi_balan.orders
