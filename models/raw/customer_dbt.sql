@@ -1,8 +1,2 @@
-
-{{
-    config(
-        materialized = 'table'
-    )
-}}
-
-select * from BOOMI.BOOMI_BALAN.CUSTOMER
+SELECT * 
+FROM {{ source('Boomi', 'customer_dbt') }} 

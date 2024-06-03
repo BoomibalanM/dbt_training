@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: Boomi
+    database : raw
+    schema: Boomi
+    tables:
+    - name: customer_dbt
+    - name: orders
+
+    - name: product
+
+
+
