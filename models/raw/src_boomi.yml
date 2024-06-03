@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: Boomi
-    database : raw
-    schema: Boomi
+    database : Boomi
+    schema: Boomi_balan
     tables:
     - name: customer_dbt
     - name: orders

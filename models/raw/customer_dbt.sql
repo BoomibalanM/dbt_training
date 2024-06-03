@@ -1,2 +1,1 @@
-SELECT * 
-FROM {{ source('Boomi', 'customer_dbt') }} 
+select * from {{ source('Boomi', 'customer') }}
